@@ -1,0 +1,102 @@
+.artondisplay{
+    border: 1px dotted blue;
+    }
+    .logo{
+        height: 50px;
+    }
+    /* .vibevideorow{
+
+    } */
+    #vibevideo{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    /* .vibevideocontainer{
+        border: 3px solid red;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    } */
+    #itsavibe{
+        font-size: 100px;
+        font-weight: bolder;
+
+    }
+    #features{
+        /* background: rgb(173,68,233); */
+        /* background: linear-gradient(79deg, rgba(173,68,233,1) 0%, rgba(141,48,144,1) 49%, rgba(80,128,247,1) 100%); */
+        background-image: linear-gradient(to bottom, #000000, #331522, #611f43, #8f2a6d, #bc379f, #c939b6, #d33dd0, #db43eb, #c939e8, #b62fe5, #a126e3, #8b1ee0);
+    }
+    .only-camera{
+        background: black;
+    }
+    #flash-gray{
+        height: 100px;
+        padding-bottom: 15px;
+    }
+    #palette{
+        height: 100px;
+        padding-bottom: 15px;
+    }
+    #battery{
+        height: 100px;
+        padding-bottom: 15px;
+    }
+    #diamond{
+        height: 100px;
+        padding-bottom: 15px;
+        
+    } 
+    #pricing{
+        background-image: linear-gradient(to bottom, #8b1ee0, #9b58ed, #ad82f6, #c2a9fc, #daceff, #e6deff, #f2efff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+    }
+    #testpolaroid{
+        border: 3px solid red;
+        /* position: relative;
+        text-align: center;
+        background: black; */
+    }
+    /* #signupemail{
+        display: flex;
+        position: absolute;
+        bottom: 9%;
+        left: 45%;
+        transform: translate(-50%, -50%); 
+        
+    }*/
+    
+    #jointhefamily{
+        border: 10px solid red;
+    }
+    .parentfamily{
+        position: relative;
+    }
+    /* .childinput{
+        position: absolute;
+        bottom: 50px;
+        left: 525px;
+        
+    } */
+    .bethevibe{
+        /* position: absolute; */
+        /* font-size: 130px; */
+        top: 50%;
+        
+    }
+    /* #signupbtn{
+        position: absolute;
+        bottom: 12.4%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } */
+    #helpme{
+        border: 10px solid red;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
