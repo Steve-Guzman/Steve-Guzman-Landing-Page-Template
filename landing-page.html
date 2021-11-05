@@ -7,8 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <link>
+  <link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Permanent+Marker&display=swap" rel="stylesheet">
   <title>Steve Guzman Landing Page</title>
 </head>
 
@@ -42,9 +43,9 @@
     <div class="container-fluid px-4 p-4 text-center artondisplay position-relative"
       style="background-image: url(https://cdn.mos.cms.futurecdn.net/EnPMXGoQK5J7YqpdanatM6-1024-80.jpg.webp); background-size: cover; background-position: center; height: 93vh; ">
       <div class="row ">
-        <div class="col ">
+        <div class="col ">         
           <h1 class="fw-bolder py-5 display-1 text-white ">Art On Display</h1>
-          <p class="lead text-white fw-bold position-absolute top-50 start-50 translate-middle ">Capturing Life's
+          <p class="fs-2 text-white fw-bold position-absolute top-50 start-50 translate-middle ">Capturing Life's
             Moments One Shutter At A Time</p>
           <a class="btn btn-lg btn-dark mb-5 position-absolute bottom-0 start-50 translate-middle-x  "
             href="#vibesection">Find Out More</a>
@@ -53,13 +54,16 @@
     </div>
   </header>
   <!-- It's A Vibe Video -->
-  <div id="vibesection"class="container-fluid vibevideocontainer">
-    <div class="row position-relative vibevideorow ">
-      <p class="position-absolute text-wrap text-uppercase " style="width: 19rem;" id="itsavibe">It's A Vibe</p>
-      <video id=vibevideo autoplay loop>
+  <div id="vibesection"class="container-fluid position-relative vibevideocontainer">
+    <div class="row  vibevideorow ">
+      <div class="col  position-absolute  top-50 start-0 translate-middle-y"  >
+      <h1 class=" display-1 fw-bold lh-1 text-uppercase" style="font-size: 12vw; " id="itsavibe">It's A <br> Vibe</h1>
+    </div>
+      <video id="vibevideo" autoplay loop>
         <source
           src="https://cdn.shopify.com/s/files/1/1135/7914/files/itype-now-plus_polaroid_camera_video_desktop.mp4?v=13100823517278259780">
       </video>
+    
     </div>
   </div>
   </div>
@@ -67,12 +71,12 @@
   <section id="about" class="only-camera">
     <div class="container-fluid  p-4 px-4 text-center position-relative ">
       <div class="row py-5 my-5 ">
-        <div class="col py-5 my-5 ">
+        <div class="col py-4 ">
           <h2 class="text-white display-2">The Only Camera You'll Ever Need!</h2>
-          <p class="text-white lead">Instant cameras never went extinct. Your sense of moments did. Capture the moment and
+          <p class="text-white fs-3">Instant cameras never went extinct. Your sense of moments did. <br>Capture the moment and
             relive it instantly.
           </p>
-          <a class="btn btn-light btn-xl  mb-5 position-absolute bottom-0 start-50 translate-middle-x "
+          <a class="btn btn-light btn-xl  mb-5 position-absolute bottom-0 start-50 translate-middle-x getstarted"
             href="#features">Get Started!</a>
         </div>
 
@@ -82,14 +86,14 @@
   <!--Features-->
   <section id="features">
     <div class="container p-5 ">
-      <h2 class="my-5 text-center text-white display-3 fw-bold">Unique Features</h2>
+      <h2 class="my-5 text-center text-white display-1 fw-bold">Unique Features</h2>
       <div class="row row-cols-1  row-cols-sm-2   row-cols-lg-4 py-5">
         <div class="col">
           <div class="card border- text-center border-0 bg-transparent">
             <div class="card-body">
               <img src="img/flash-gray.png" alt="lighting bolt" id="flash-gray">
-              <h5 class="card-title">Friendliness</h5>
-              <p class="card-text">Load it, Point it, Capture it.</p>
+              <h5 class="card-title fs-1">Friendliness</h5>
+              <p class="card-text fs-3">Load it, Point it, Capture it.</p>
             </div>
           </div>
         </div>
@@ -97,8 +101,8 @@
           <div class="card text-center border-0 bg-transparent">
             <div class="card-body">
               <img src="img/paint-palette.png" alt="paint palette" id="palette">
-              <h5 class="card-title">Paint Your Memory</h5>
-              <p class="card-text">Instant access to the physical photos just after it has been taken.</p>
+              <h5 class="card-title fs-1">Paint It</h5>
+              <p class="card-text fs-4">Instant access to the physical photos just after it has been taken.</p>
             </div>
           </div>
         </div>
@@ -106,8 +110,8 @@
           <div class="card text-center border-0 bg-transparent">
             <div class="card-body">
               <img src="img/battery.png" alt="charged battery" id="battery">
-              <h5 class="card-title">Don't Stop Won't Stop</h5>
-              <p class="card-text">Free yourself. Internal rechargeable lithium-ion battery makes your memories last
+              <h5 class="card-title fs-1">Free Yourself</h5>
+              <p class="card-text fs-4"> Internal rechargeable lithium-ion battery makes your memories last
                 forever.</p>
             </div>
           </div>
@@ -116,19 +120,19 @@
           <div class="card text-center border-0 bg-transparent">
             <div class="card-body">
               <img class="text-center" src="img/diamond.png" alt="diamond" id="diamond">
-              <h5 class="card-title">Precious Object</h5>
-              <p class="card-text">There's only one, It feels special, therefore is more precious.</p>
+              <h5 class="card-title fs-1">Precious Object</h5>
+              <p class="card-text fs-4">There's only one, It feels special, therefore is more precious.</p>
             </div>
           </div>
         </div>
-        <!-- <a class="btn btn-light btn-xl" href="#services">Get Started!</a> -->
+        
 
       </div>
     </div>
   </section>
   <!--Pricing-->
   <section>
-    <div class="container-fluid " id="pricing">
+    <div class="container-fluid py-5" id="pricing">
       <div class="bg-transparent row row-cols-1  row-cols-sm-2   row-cols-lg-2">
         <div class="col d-flex justify-content-evenly">
           <div class="card border-0 bg-transparent " style="width: 30rem;">
@@ -136,8 +140,8 @@
               src="https://cdn.shopify.com/s/files/1/1135/7914/products/009061_itype-now-plus_polaroid_camera_black_angle_right_540x.png?v=1634542273"
               class="card-img-top" alt="...">
             <div class="card-body text-center">
-              <h5 class="card-title">Polaroid Now</h5>
-              <p class="card-text pb-4 ">Our most creative camera yet. Polaroid Now is our revamped analog instant
+              <h5 class="card-title fs-1">Polaroid Now</h5>
+              <p class="card-text pb-4 fs-3">Our most creative camera yet. Polaroid Now is our revamped analog instant
                 camera with
                 even more creative tools. </p>
               <a href="#" class="btn btn-primary ">Learn More</a>
@@ -150,8 +154,8 @@
               src="https://cdn.shopify.com/s/files/1/1135/7914/products/009062_itype-now-plus_polaroid_camera_white_angle_right_540x.png?v=1634542273"
               class="card-img-top" alt="...">
             <div class="card-body text-center">
-              <h5 class="card-title">Polaroid Now+</h5>
-              <p class="card-text">Get everything from the Polaroid Now plus 5 new lens filters, and unlock two extra
+              <h5 class="card-title fs-1">Polaroid Now+</h5>
+              <p class="card-text fs-3">Get everything from the Polaroid Now plus 5 new lens filters, and unlock two extra
                 tools — aperture priority and tripod mode — inside the Polaroid mobile app. </p>
               <a href="#" class="btn btn-primary ">Learn More</a>
             </div>
@@ -163,76 +167,28 @@
     </div>
   </section>
 
-
-  <!--Sign Up-->
-
-  <!-- <section>
-    <div class="container-fluid text-center">
-      <h1 class="my-5 display-1 fw-bold ">Join the family!</h1>
-      <div class="row position-relative">
-        <div class="col position-absolute top-50 start-50 translate-middle  ">
-          
-          <form class="d-flex justify-content-center  ">
-            
-            <input type="email" class="form-control form-control-lg" id="thatsit" aria-label="Email" placeholder="Email"
-              style="width: 30%">
-            <button type="submit" href="#" class="btn btn-primary">Submit</button>
-          </form>
-        </div>
-
-        --video below----->
-  <!-- <video class="px-0 mt-4" autoplay loop>
-          <source
-            src="https://cdn.shopify.com/s/files/1/1135/7914/files/itype-now-plus_polaroid_camera_video_desktop.mp4?v=13100823517278259780">
-        </video> -->
-  <!-- </div>
-
-    </div>
-  </section> -->
-  <!--Practice of overlay on polaroid -->
-  <!--Sign Up-->
-
-  <!-- 1st attempt
-
-    <div class="position-relative text-center"id="testpolaroid">
-      
-      <h1 class="mt-5 mb-0 display-1 fw-bold jointhefamily position-absolute top-0 start-50 translate-middle text-white  ">Join the family!</h1>     
-      <img src="https://www.creativefabrica.com/wp-content/uploads/2020/12/03/Polaroid-Camera-Illustration-Neon-Graphics-6995169-1.jpg" alt="polaroid film" id="polaroidfilm" style="width:90%;">
-      <div>
-        <form class="position-absolute bottom-0 start-50 translate-middle-x d-flex" id="signupemail">
-          <input type="email" class="form-control form-control-lg" id="signupemail" aria-label="Email" placeholder="Email"
-          style="width: 50%">
-        <button type="submit" href="#" id="signupbtn"class="btn btn-primary">Sign Up</button>
-      </form>
-      </div>
-      -->
-      
-      
-      <!-- <div class="row position-relative">
-      <div class="col  bottom-0 start-50 translate-middle-x ">        
-
-
-    </div> -->
-
-    <div class="container-fluid parentfamily" id="jointhefamily">
-      <div class="row">
-          <div class="col  ">
-              <div class="" >
-                <div class="bethevibe text-center">Become the vibe</div>
-                  <img src="https://www.creativefabrica.com/wp-content/uploads/2020/12/03/Polaroid-Camera-Illustration-Neon-Graphics-6995169-1.jpg" class="img-responsive" style="width: 90%;">
-                  <div class="childinput">
-                    <form class="d-flex   ">            
-                      <input type="email" class="form-control form-control-lg" id="thatsit" aria-label="Email" placeholder="Email"
-                        style="width: 30%">
-                      <button type="submit" href="#" class="btn btn-primary">Submit</button>
-                    </form>
-                  </div>                  
-              </div>
-          </div>
-      </div>
-  </div>
+<!--Sign Up Email -->
   
+  <div class="container-fluid position-relative px-0 camimgcontainer d-flex justify-content-center" style="background-color: black;">
+    <img src="https://www.creativefabrica.com/wp-content/uploads/2020/12/03/Polaroid-Camera-Illustration-Neon-Graphics-6995169-1.jpg" class="img-responsive camimg " style="width: 75%; ">
+    <div class="row position-absolute top-0 left-0 w-100 mx-0 h-25">
+      <div class="col mt-xs-5 mt-sm-3 mt-md-5">
+        <h5 class="fw-bolder display-3 text-white text-center fst-italic " id="joinus">Join the Vibe</h5>
+      </div>
+    </div>
+    <div class="row position-absolute bottom-0 left-0 w-100 mx-0" >
+      <div class="col  mb-sm-3 mb-md-5" >
+        <form class="join-form w-50 mx-auto">
+          <div class="d-flex">
+            <input type="email" class="form-control form-control-sm" id="thatsit" aria-label="Email" placeholder="Email">
+            <button type="submit" href="#" class="btn btn-primary btn-sm ms-2">Submit</button>
+          </div>            
+        </form>
+      </div>
+    </div>
+  </div>
 
+  <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/linector" title="Linector">Linector</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
